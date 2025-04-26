@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "712184455293",
+    "project_id": "carelens-a",
+    "storage_bucket": "carelens-a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712184455293:android:df17b2ba14657a1b8b1114",
+        "android_client_info": {
+          "package_name": "com.example.carelens"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxkM-j36TnFDCx_IxB7VebL2GyQl2IuLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
