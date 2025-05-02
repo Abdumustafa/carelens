@@ -74,8 +74,10 @@ class _LoginScreenState extends State<LoginScreen> {
             verticalSpace(20.h),
             Padding(
               padding: const EdgeInsets.only(left: 18, right: 18),
-              child: AppButtom(
-                onPressed: () {},
+              child: AppButton(
+                onPressed: () {
+                  Get.toNamed('/StatusScreen');
+                },
                 buttonText: "Login",
               ),
             ),

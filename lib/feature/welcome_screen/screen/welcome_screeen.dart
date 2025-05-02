@@ -31,7 +31,7 @@ class WelcomeScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyles.font15whiteMedium),
               verticalSpace(40),
-              AppButtom(
+              AppButton(
                 buttonText: "Get Started",
                 onPressed: () {
                   Get.toNamed("/StatusScreen");

@@ -93,7 +93,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
             verticalSpace(50.h),
             Padding(
               padding: EdgeInsets.only(left: 18, right: 18),
-              child: AppButtom(
+              child: AppButton(
                 onPressed: () {},
                 buttonText: "Sign Up",
               ),

@@ -60,7 +60,7 @@ class _CheckEmailState extends State<CheckEmail> {
           Spacer(),
           Padding(
             padding: EdgeInsets.only(left: 18, right: 18, bottom: 50),
-            child: AppButtom(
+            child: AppButton(
               onPressed: () {
                 Get.offNamed('/CreateNewPassword');
               },

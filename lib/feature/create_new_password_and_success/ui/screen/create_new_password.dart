@@ -83,7 +83,7 @@ class _CreateNewPasswordState extends State<CreateNewPassword> {
             verticalSpace(220.h),
             Padding(
               padding: EdgeInsets.only(left: 18, right: 18),
-              child: AppButtom(
+              child: AppButton(
                 onPressed: () {
                   Get.offNamed('/SuccessScreen');
                 },

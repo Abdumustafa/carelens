@@ -1,8 +1,7 @@
 import 'package:carelens/carelens_app.dart';
 import 'package:flutter/material.dart';
 
-void main()async {
- 
+void main()async { 
   runApp(CarelensApp());
 }
 

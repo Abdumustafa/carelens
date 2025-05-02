@@ -57,7 +57,7 @@ class ForgotPassword extends StatelessWidget {
             verticalSpace(130.h),
             Padding(
               padding: EdgeInsets.only(left: 18, right: 18),
-              child: AppButtom(
+              child: AppButton(
                 onPressed: () {
                   Get.offNamed('/CheckEmail');
                 },

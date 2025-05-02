@@ -2,8 +2,8 @@ import 'package:carelens/core/theming/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class AppButton extends StatelessWidget {
-  const AppButton({
+class AppButtomTwo extends StatelessWidget {
+  const AppButtomTwo({
     super.key,
     required this.onPressed,
     required this.buttonText,
@@ -19,8 +19,8 @@ class AppButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 0.w),
-      height: 48.h,
+      height: 50.h,
+      width: 250,
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: backgroundColor ?? ColorsManager.mainGreen,
