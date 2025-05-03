@@ -22,7 +22,7 @@ class OnBoardingScreen extends StatelessWidget {
           'Get instant help from our smart assistant scan products, check ingredients, get advice, and make healthier choices with confidence'
     },
     {
-      'image': 'assets/images/onboarding1.png',
+      'image': 'assets/images/onbording3.jpg',
       'title': "Keep track of your stats and \ncurrent health condition",
       'subtitle':
           'Stay updated on your health with real-time insights and meaningful statistics .'
